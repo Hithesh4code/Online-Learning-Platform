@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LearnHub | Sign Up</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>LearnHub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="dashboard.html">My Courses</a>
+      <span id="auth-slot"></span>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="auth-card">
+      <h2>Create Account</h2>
+      <form id="signup-form" class="stack-form">
+        <label>Name</label>
+        <input id="signup-name" type="text" required />
+        <label>Email</label>
+        <input id="signup-email" type="email" required />
+        <label>Password</label>
+        <input id="signup-password" type="password" required />
+        <button type="submit" class="btn">Sign Up</button>
+      </form>
+      <p id="signup-message" class="meta"></p>
+      <p class="meta">Already have an account? <a href="login.html">Login here</a></p>
+    </section>
+  </main>
+
+  <script type="module" src="assets/js/controllers/authGuard.js"></script>
+  <script type="module" src="assets/js/controllers/signupController.js"></script>
+  <script type="module" src="assets/js/controllers/layoutController.js"></script>
+</body>
+</html>

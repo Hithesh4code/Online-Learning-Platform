@@ -1,0 +1,79 @@
+[
+  {
+    "id": "c1",
+    "title": "HTML Fundamentals",
+    "description": "Learn structure, semantic tags, and forms.",
+    "duration": "4 weeks",
+    "level": "Beginner",
+    "featured": true,
+    "videoUrl": "https://www.youtube.com/embed/pQN-pnXPaVg",
+    "notes": [
+      "HTML builds the structure of every webpage using tags like heading, paragraph, and section.",
+      "Use semantic tags such as header, main, article, and footer to improve readability and accessibility.",
+      "Forms collect user data through input, select, textarea, and button elements."
+    ],
+    "lessons": [
+      { "id": "l1", "title": "Introduction to HTML", "videoEmbedUrl": "https://www.youtube.com/embed/pQN-pnXPaVg" },
+      { "id": "l2", "title": "Text and Lists", "videoEmbedUrl": "https://www.youtube.com/embed/kUMe1FH4CHE" },
+      { "id": "l3", "title": "Forms and Inputs", "videoEmbedUrl": "https://www.youtube.com/embed/fNcJuPIZ2WE" }
+    ]
+  },
+  {
+    "id": "c2",
+    "title": "CSS for Responsive Design",
+    "description": "Build modern layouts with Flexbox and Grid.",
+    "duration": "5 weeks",
+    "level": "Beginner",
+    "featured": true,
+    "videoUrl": "https://www.youtube.com/embed/OXGznpKZ_sA",
+    "notes": [
+      "CSS styles your HTML and controls layout, spacing, color, and typography.",
+      "Flexbox is great for one-dimensional layouts, while Grid is ideal for two-dimensional sections.",
+      "Media queries allow your UI to adapt to mobile, tablet, and desktop screens."
+    ],
+    "lessons": [
+      { "id": "l1", "title": "CSS Selectors", "videoEmbedUrl": "https://www.youtube.com/embed/1PnVor36_40" },
+      { "id": "l2", "title": "Flexbox Layout", "videoEmbedUrl": "https://www.youtube.com/embed/phWxA89Dy94" },
+      { "id": "l3", "title": "Responsive Media Queries", "videoEmbedUrl": "https://www.youtube.com/embed/yU7jJ3NbPdA" }
+    ]
+  },
+  {
+    "id": "c3",
+    "title": "JavaScript Essentials",
+    "description": "Understand DOM events, arrays, and objects.",
+    "duration": "6 weeks",
+    "level": "Intermediate",
+    "featured": true,
+    "videoUrl": "https://www.youtube.com/embed/W6NZfCO5SIk",
+    "notes": [
+      "JavaScript adds interactivity by responding to user actions like clicks and keyboard input.",
+      "The DOM lets JavaScript read and update HTML elements dynamically.",
+      "Arrays and objects help you organize application data and build reusable logic."
+    ],
+    "lessons": [
+      { "id": "l1", "title": "Variables and Functions", "videoEmbedUrl": "https://www.youtube.com/embed/hdI2bqOjy3c" },
+      { "id": "l2", "title": "DOM Manipulation", "videoEmbedUrl": "https://www.youtube.com/embed/0ik6X4DJKCc" },
+      { "id": "l3", "title": "Event Handling", "videoEmbedUrl": "https://www.youtube.com/embed/XF1_MlZ5l6M" },
+      { "id": "l4", "title": "Array Methods", "videoEmbedUrl": "https://www.youtube.com/embed/R8rmfD9Y5-c" }
+    ]
+  },
+  {
+    "id": "c4",
+    "title": "Mini Project Workshop",
+    "description": "Combine HTML/CSS/JS into a real mini app.",
+    "duration": "3 weeks",
+    "level": "Intermediate",
+    "featured": false,
+    "videoUrl": "https://www.youtube.com/embed/3PHXvlpOkf4",
+    "notes": [
+      "Start with a clear folder structure and split code by responsibility.",
+      "Build one feature at a time and test each page flow before moving to the next feature.",
+      "Final polish includes responsive checks, usability improvements, and bug fixes."
+    ],
+    "lessons": [
+      { "id": "l1", "title": "Project Planning", "videoEmbedUrl": "https://www.youtube.com/embed/3PHXvlpOkf4" },
+      { "id": "l2", "title": "UI Implementation", "videoEmbedUrl": "https://www.youtube.com/embed/x4rFhThSX04" },
+      { "id": "l3", "title": "Testing and Polishing", "videoEmbedUrl": "https://www.youtube.com/embed/E1czmP8cB6s" }
+    ]
+  }
+]

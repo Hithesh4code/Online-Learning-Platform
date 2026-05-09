@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LearnHub | My Courses</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>LearnHub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a class="active" href="dashboard.html">My Courses</a>
+      <span id="auth-slot"></span>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>My Courses</h2>
+      <div id="dashboard-courses" class="dashboard-list"></div>
+      <p id="dashboard-empty" class="empty-state hidden">You have not enrolled in any course yet.</p>
+    </section>
+  </main>
+
+  <script type="module" src="assets/js/controllers/authGuard.js"></script>
+  <script type="module" src="assets/js/controllers/dashboardController.js"></script>
+  <script type="module" src="assets/js/controllers/layoutController.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LearnHub | Courses</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>LearnHub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a class="active" href="courses.html">Courses</a>
+      <a href="dashboard.html">My Courses</a>
+      <span id="auth-slot"></span>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="toolbar">
+      <input id="search-input" type="text" placeholder="Search by title" />
+      <select id="level-filter">
+        <option value="all">All Levels</option>
+        <option value="Beginner">Beginner</option>
+        <option value="Intermediate">Intermediate</option>
+      </select>
+    </section>
+
+    <section>
+      <div id="courses-list" class="course-grid"></div>
+      <p id="empty-state" class="empty-state hidden">No courses match your filters.</p>
+    </section>
+  </main>
+
+  <script type="module" src="assets/js/controllers/authGuard.js"></script>
+  <script type="module" src="assets/js/controllers/coursesController.js"></script>
+  <script type="module" src="assets/js/controllers/layoutController.js"></script>
+</body>
+</html>

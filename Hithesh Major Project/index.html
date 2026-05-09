@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LearnHub | Home</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>LearnHub</h1>
+    <nav>
+      <a class="active" href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="dashboard.html">My Courses</a>
+      <span id="auth-slot"></span>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Online Learning Platform</h2>
+      <p>Browse courses, enroll instantly, and track your lesson progress.</p>
+      <a class="btn" href="courses.html">Explore Courses</a>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <h3>Featured Courses</h3>
+      </div>
+      <div id="featured-courses" class="course-grid"></div>
+    </section>
+  </main>
+
+  <script type="module" src="assets/js/controllers/authGuard.js"></script>
+  <script type="module" src="assets/js/controllers/homeController.js"></script>
+  <script type="module" src="assets/js/controllers/layoutController.js"></script>
+</body>
+</html>
